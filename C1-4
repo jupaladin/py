@@ -1,0 +1,111 @@
+Python中数据类型
+print 45678+0x12fd2
+print'Learn Python in imooc'
+print 100<99
+print 0xff==255
+
+
+Python之print语句
+#input code
+print'hello,python'
+print'hello,''python'
+
+
+Python的注释
+#print 'hello'
+
+
+Python中什么是变量
+x1 = 1
+d = 3
+n = 100
+x100 = 1+3*99
+s = (x1+x100)*100/2
+print s
+
+
+Python中定义字符串
+s = 'Python was started in 1989 by "Guido".\n Python is free and easy to learn.'
+print s
+
+
+Python中raw字符串与多行字符串
+print r'''"To be, or not to be": that is the question.
+Whether it's nobler in the mind to suffer.'''
+
+
+Python中Unicode字符串
+# -*- coding: utf-8 -*-
+print '''静夜思
+床前明月光，
+疑是地上霜。
+举头望明月，
+低头思故乡。'''
+
+
+Python中整数和浮点数
+print 2.5 + 10.0 / 4
+
+
+Python中布尔类型
+a = 'python'
+print 'hello,', a or 'world'
+
+b = ''
+print 'hello,', b or 'world'
+
+
+Python创建list
+L = ['Adam', 95.5, 'Lisa', 85, 'Bart', 59]
+print L
+
+
+Python按照索引访问list
+L = [95.5,85,59]
+print L[0]
+print L[1]
+print L[2]
+print L[-1]
+
+
+Python之倒序访问list
+L = [95.5, 85, 59]
+print L[-1]
+print L[-2]
+print L[-3]
+print L[-4]
+
+
+Python之添加新元素
+L = ['Adam', 'Lisa', 'Bart']
+L.insert(2,'Paul')
+print L
+
+
+Python从list删除元素
+L = ['Adam', 'Lisa', 'Paul', 'Bart']
+L.pop(2)
+L.pop(2)
+print L
+
+
+Python中替换元素
+L = ['Adam', 'Lisa', 'Bart']
+L[0]='Bart'
+L[2]='Adam'
+print L
+
+
+Python之创建tuple
+t = (0,1,2,3,4,5,6,7,8,9)
+print t
+
+
+Python之创建单元素tuple
+t = ('Adam',)
+print t
+
+
+Python之“可变”的tuple
+t = ('a', 'b', ('A', 'B'))
+print t
