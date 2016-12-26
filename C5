@@ -1,0 +1,34 @@
+Python之if语句
+score = 75
+if score>=60:
+print 'passed'
+
+
+Python之 if-else
+score = 55
+if score>=60:
+print 'passed'
+else:
+print 'failed'
+
+
+Python之 if-elif-else
+score = 85
+if score>=90:
+print 'excellent'
+elif score>=80:
+print 'good'
+elif score>=60:
+print 'passed'
+else:
+print 'failed'
+
+
+Python之 for循环
+L = [75, 92, 59, 68]
+sum = 0.0
+for score in L:
+sum=score+sum
+print sum / 4
+
+
