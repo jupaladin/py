@@ -1,0 +1,17 @@
+import urllib2
+url="http:/www.baidu.com/"
+
+
+print('Method One')
+response1=urllib2.urlopen(url)
+print response1.getcode()
+print len(response1.read())
+
+
+
+print('Method Two')
+request=urllib2.request(url)
+request.add_header('use_agent','Mozilla/5.0')
+response2=urllib2.urlopen(url)
+print response2.getcode()
+print len(response2.read())
